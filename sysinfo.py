@@ -49,13 +49,13 @@ if __name__ == "__main__":
     with open(file_name, 'w') as file:
         file.write("--- System Information ---\n")
         for key, value in system_info.items():
-            file.write(f"{key}: {value}\n")
+            file.write(f"\t{key}: {value}\n")
 
         file.write("\n--- Resource Usage ---\n")
         file.write(f"CPU Usage (%): {cpu_usage}\n")
         for key, value in memory_usage.items():
-            file.write(f"{key}: {value}\n")
+            file.write(f"\t{key}: {value}\n")
         for key, value in disk_usage.items():
-            file.write(f"\n{key}: {value}")
+            file.write(f"\n\t{key}: {value}")
 
     print(f"Information stored in: {file_name}")
