@@ -56,6 +56,6 @@ if __name__ == "__main__":
         for key, value in memory_usage.items():
             file.write(f"{key}: {value}\n")
         for key, value in disk_usage.items():
-            file.write(f"{key}: {value}\n")
+            file.write(f"\n{key}: {value}")
 
     print(f"Information stored in: {file_name}")

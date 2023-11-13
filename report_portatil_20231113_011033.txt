@@ -7,12 +7,12 @@ CPU: AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
 Hostname: portatil
 
 --- Resource Usage ---
-CPU Usage (%): 0.9
+CPU Usage (%): 3.7
 Total Memory (MB): 15722.31
-Available Memory (MB): 8896.04
-Memory Usage (MB): 6826.27
-Memory Usage (%): 43.4
+Available Memory (MB): 8858.92
+Memory Usage (MB): 6863.39
+Memory Usage (%): 43.7
 Total Disk Space (GB): 703.24
 Free Disk Space(GB): 369.57
-Disk Usage (GB): 333.67
+Disk Usage (GB): 333.68
 Disk Usage (%): 47.4
