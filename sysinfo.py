@@ -18,9 +18,9 @@ def get_resource_usage():
     cpu_usage = psutil.cpu_percent(interval=1)
     memory = psutil.virtual_memory()
     memory_usage = {
-        'Total Memory (MB)': round(memory.total / (1024 ** 2), 2),
-        'Available Memory (MB)': round(memory.available / (1024 ** 2), 2),
-        'Memory Usage (MB)': round(memory.used / (1024 ** 2), 2),
+        'Total Memory (GB)': round(memory.total / (1024 ** 3), 2),
+        'Available Memory (GB)': round(memory.available / (1024 ** 3), 2),
+        'Memory Usage (GB)': round(memory.used / (1024 ** 3), 2),
         'Memory Usage (%)': memory.percent
     }
 
