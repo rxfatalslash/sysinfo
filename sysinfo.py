@@ -52,7 +52,7 @@ if __name__ == "__main__":
             file.write(f"\t{key}: {value}\n")
 
         file.write("\n--- Resource Usage ---\n")
-        file.write(f"CPU Usage (%): {cpu_usage}\n")
+        file.write(f"\tCPU Usage (%): {cpu_usage}\n")
         for key, value in memory_usage.items():
             file.write(f"\t{key}: {value}\n")
         for key, value in disk_usage.items():

@@ -1,0 +1,19 @@
+--- System Information ---
+	System: Windows
+	Release: 10
+	Version: 10.0.19045
+	Architecture: AMD64
+	CPU: AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
+	Hostname: portatil
+
+--- Resource Usage ---
+CPU Usage (%): 3.6
+	Total Memory (MB): 15722.31
+	Available Memory (MB): 8782.21
+	Memory Usage (MB): 6940.09
+	Memory Usage (%): 44.1
+
+	Total Disk Space (GB): 703.24
+	Free Disk Space(GB): 369.59
+	Disk Usage (GB): 333.66
+	Disk Usage (%): 47.4
