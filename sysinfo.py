@@ -43,7 +43,7 @@ if __name__ == "__main__":
     date_time = now.strftime("%Y%m%d_%H%M%S")  # Formato de nombre de archivo: YYYYMMDD_HHMMSS
 
     # Crear el nombre del archivo con la fecha y hora actual
-    file_name = f"./report{platform.node()}_{date_time}.txt"
+    file_name = f"./report_{platform.node()}_{date_time}.txt"
 
     # Escribir la información en el archivo
     with open(file_name, 'w') as file:
