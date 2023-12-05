@@ -5,5 +5,5 @@ You must first clone the repository and then run the script.
 ```
 git clone git@github.com:rxfatalslash/sysinfo.git
 cd sysinfo/
-python sysinfo.py
+python3 sysinfo.py
 ```
